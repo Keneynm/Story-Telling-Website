@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(79, 107, 47);
+}
+
+.line{
+    background-color: goldenrod;
+    width: 100%;
+}
+
+.first{
+    margin-top: 90px;
+}
+
+.second{
+    margin-top: 15px;
+}
+
+.thicker{
+    height: 15px;
+}
+
+.thinner{
+    height: 3px;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 241, 112);
+}
+
+#title{
+    font-size: 130px;
+    color: lemonchiffon;
+}
+
+.spacer{
+    height: 400px;
+}
+
+.colored{
+    background-color: rgba(218, 165, 32, 0.774);
+    margin: 50px;
+    height: 120px;
+}
+
+.spacer2{
+    height: 50px;
+    margin-left: -40px;
+    margin-right: -40px;
+    background-color:wheat;
+}
+
+.instruction{
+    color:sienna;
+    font-size: 30px;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.storywords{
+    color: cornsilk;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Itim', cursive;
+}
+
+#porridge{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+.herbname{
+    font-size: 200px;
+    color:rgb(213, 240, 140);
+    text-shadow: 10px 8px rgba(106, 142, 35, 0.692);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.subname{
+    font-size: 60px;
+    color: cornsilk;
+    font-family: 'Itim', cursive;
+}
+
+#hotoke{
+    font-size: 170px;
+}
+
+td{
+    height: 500px;
+    width: 50%;
+}
+
+td img{
+    height: auto;
+    width: 70%;
+    align-items: center;
+}
+
+.image{
+    display: block;
+}
+
+.words{
+    color: rgb(255, 241, 112);
+    font-size: 40px;
+    font-family: 'Itim', cursive;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container {
+    position: relative;
+    width: auto;
+  }
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.container:hover img{
+    opacity: 0.5;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#health{
+    font-size: 250px;
+}
+
+#flowerfield{
+    width: 110%;
+}
